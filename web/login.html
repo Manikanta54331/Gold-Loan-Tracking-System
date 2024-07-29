@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<br>
+	<br>
+<center><h1>Login</h1></center>
+<div class="container" style=" margin:  5% 35% 30% 40%;">
+	<form action="login.jsp" method="post" id="Log" name= "log">
+            <br>
+                <label for="role">Select a role:</label>
+                <select name="role" id="role">
+            <option value="Admins">Admin</option>
+             <option value="financer">Financer</option>
+             <option value="borrower">Borrower</option>
+                </select><br>
+		<label for= "uname">User Name: </label>
+		<input type="text" name="uname">
+		<br>
+		<label for= "password">Password: </label>
+		<input type="password" name="password">
+		<br>
+		<center><button type="submit">Submit</button></center><br>
+    </form>
+</div>
+</body>
+</html>
